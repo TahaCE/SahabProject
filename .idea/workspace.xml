@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="starting with springboot">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" afterDir="false" />
+    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="adding KafkaProducer class">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SpringbootKafkaApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -55,12 +58,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.tools",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="SpringbootKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="jbrsdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="SahabProject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootkafka.SpringbootKafkaApplication" />
       <method v="2">
@@ -72,6 +80,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.21-corretto-11.0.21-3183f394aec4-585ed96d" />
+        <option value="jdk-17.0.9-jbrsdk-17.0.9-3183f394aec4-247623aa" />
       </set>
     </attachedChunks>
   </component>
@@ -86,7 +95,7 @@
       <workItem from="1704289483956" duration="1287000" />
       <workItem from="1704295660731" duration="4785000" />
       <workItem from="1704329337025" duration="132000" />
-      <workItem from="1704483658654" duration="523000" />
+      <workItem from="1704483658654" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="add Logs for modulating format of logs">
       <option name="closed" value="true" />
@@ -120,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704484013910</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding KafkaProducer class">
+      <option name="closed" value="true" />
+      <created>1704484291450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704484291450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +160,7 @@
     <MESSAGE value="add Logs for modulating format of logs" />
     <MESSAGE value="Override toString in Logs" />
     <MESSAGE value="starting with springboot" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting with springboot" />
+    <MESSAGE value="adding KafkaProducer class" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding KafkaProducer class" />
   </component>
 </project>
