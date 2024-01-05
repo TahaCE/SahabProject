@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="add Logs for modulating format of logs">
+    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="Override toString in Logs">
+      <change afterPath="$PROJECT_DIR$/src/Logs/FirstComponnet_2021_07_12-01_55_55.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileIngester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileIngester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/component1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704289481880</updated>
       <workItem from="1704289483956" duration="1287000" />
-      <workItem from="1704295660731" duration="3366000" />
+      <workItem from="1704295660731" duration="4785000" />
+      <workItem from="1704329337025" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="add Logs for modulating format of logs">
       <option name="closed" value="true" />
@@ -76,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704298803650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Override toString in Logs">
+      <option name="closed" value="true" />
+      <created>1704299294385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704299294397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="add Logs for modulating format of logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Logs for modulating format of logs" />
+    <MESSAGE value="Override toString in Logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Override toString in Logs" />
   </component>
 </project>
