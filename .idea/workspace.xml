@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="adding KafkaProducer class">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="adding MessageController class to the controller pakage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/controller/MessageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -95,7 +98,7 @@
       <workItem from="1704289483956" duration="1287000" />
       <workItem from="1704295660731" duration="4785000" />
       <workItem from="1704329337025" duration="132000" />
-      <workItem from="1704483658654" duration="2310000" />
+      <workItem from="1704483658654" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="add Logs for modulating format of logs">
       <option name="closed" value="true" />
@@ -137,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704484291450</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="complete KafkaProducer class">
+      <option name="closed" value="true" />
+      <created>1704486025883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704486025883</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding MessageController class to the controller pakage">
+      <option name="closed" value="true" />
+      <created>1704486261070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704486261070</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +180,8 @@
     <MESSAGE value="Override toString in Logs" />
     <MESSAGE value="starting with springboot" />
     <MESSAGE value="adding KafkaProducer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding KafkaProducer class" />
+    <MESSAGE value="complete KafkaProducer class" />
+    <MESSAGE value="adding MessageController class to the controller pakage" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding MessageController class to the controller pakage" />
   </component>
 </project>
