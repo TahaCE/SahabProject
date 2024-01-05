@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="complete MessageController class to the controller pakage">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="adding KafkaConsumer in kafka pakage">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1704289483956" duration="1287000" />
       <workItem from="1704295660731" duration="4785000" />
       <workItem from="1704329337025" duration="132000" />
-      <workItem from="1704483658654" duration="6050000" />
+      <workItem from="1704483658654" duration="6614000" />
     </task>
     <task id="LOCAL-00001" summary="add Logs for modulating format of logs">
       <option name="closed" value="true" />
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704488026812</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding KafkaConsumer in kafka pakage">
+      <option name="closed" value="true" />
+      <created>1704498278806</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704498278806</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="complete KafkaProducer class" />
     <MESSAGE value="adding MessageController class to the controller pakage" />
     <MESSAGE value="complete MessageController class to the controller pakage" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete MessageController class to the controller pakage" />
+    <MESSAGE value="adding KafkaConsumer in kafka pakage" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding KafkaConsumer in kafka pakage" />
   </component>
 </project>
