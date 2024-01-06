@@ -1,21 +1,13 @@
 package com.example.springbootkafka.modules;
 
 public class Log {
-    private String time;
     private String date;
+    private String time;
     private String componentName;
     private String threadName;
     private String type;
     private String className;
     private String message;
-
-    public String getTime() {
-        return time;
-    }
-
-    public void setTime(String time) {
-        this.time = time;
-    }
 
     public String getDate() {
         return date;
@@ -23,6 +15,14 @@ public class Log {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
     }
 
     public String getComponentName() {

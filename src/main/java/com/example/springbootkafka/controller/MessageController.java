@@ -3,10 +3,7 @@ package com.example.springbootkafka.controller;
 import com.example.springbootkafka.kafka.KafkaProducer;
 import com.example.springbootkafka.modules.Log;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/kafka")
@@ -16,10 +13,10 @@ public class MessageController {
     public MessageController(KafkaProducer kafkaProducer) {
         this.kafkaProducer = kafkaProducer;
     }
-    //http:localhost:8080/api/v1/kafka/publish?message=hello world
+    //http:localhost:8080/api/v1/kafka/publish
     @GetMapping("/publish")
-    public ResponseEntity<String> publish(@RequestParam("message") Log message){
-        kafkaProducer.sendMessage(message);
-        return ResponseEntity.ok("Message sent to the topic");
+    public ResponseEntity<String> publish(@RequestBody Log log){
+        kafkaProducer.sendMessage(log);
+        return ResponseEntity.ok("Json message sent to the topic");
     }
 }
