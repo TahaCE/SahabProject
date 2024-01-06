@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="change properties for sending and receiving JSON messages">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/FileIngester.java" afterDir="false" />
+    <list default="true" id="f8c413e7-ffad-4f04-b832-b1f61ad95353" name="Changes" comment="adding FileIngester">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/SpringbootKafkaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/FileIngester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/FileIngester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootkafka/kafka/KafkaProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
       <workItem from="1704295660731" duration="4785000" />
       <workItem from="1704329337025" duration="132000" />
       <workItem from="1704483658654" duration="6050000" />
-      <workItem from="1704561742468" duration="5249000" />
+      <workItem from="1704561742468" duration="6777000" />
     </task>
     <task id="LOCAL-00001" summary="add Logs for modulating format of logs">
       <option name="closed" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704508274191</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding FileIngester">
+      <option name="closed" value="true" />
+      <created>1704575367367</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704575367367</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value="add Log class to the modules package" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="change properties for sending and receiving JSON messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="change properties for sending and receiving JSON messages" />
+    <MESSAGE value="adding FileIngester" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding FileIngester" />
   </component>
 </project>
